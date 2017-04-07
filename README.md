@@ -1,5 +1,5 @@
 # MM
-爬取[淘宝MM](http://mm.taobao.com)用户、相册及图片数据, 存储到MySQL数据库中。
+爬取[淘宝MM](http://mm.taobao.com)用户、相册及图片数据, 存储到MySQL数据库或ssdb中
 
 该项目仅用于学习Python爬虫，请勿用于第三方用途。
 
@@ -44,27 +44,24 @@ database_config = {
 	'password': '123456',
 	'charset': 'utf8',
 }
-
 ```
 
 运行启动脚本 mm.py 即开始抓取数据并存储到mysql数据库中
 
 ```
 $ python mm.py
+```
 
+运行启动脚本 ssdbtest.py 即开始抓取数据并储存到ssdb中
+
+```
+$ python ssdbtest.py
 ```
 
 查看日志文件信息
 
 ```
 $tailf log/run.log
-
-```
-
-```
-
-运行启动脚本 ssdbtest.py 即开始抓取数据并储存到ssdb中
-
 ```
 
 ## 参考
