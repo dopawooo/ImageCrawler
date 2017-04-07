@@ -66,7 +66,7 @@ $tailf log/run.log
 
 ## 参考
 * [IPProxyPool](https://github.com/qiyeboy/IPProxyPool)
-
+* [SSDB](http://ssdb.io/zh_cn/)
 
 ## 项目更新
 
@@ -78,6 +78,9 @@ $tailf log/run.log
 -----------------------------2017-03-27----------------------------<br>
 1.实现图片下载功能<br>
 
+-----------------------------2017-04-07----------------------------<br>
+1.添加数据库ssdb<br>
+2.添加图片url数据下载保存至ssdb中<br>
 
 
 
